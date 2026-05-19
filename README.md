@@ -1,2 +1,13 @@
-# introduction-to-data-cleaning
-Practical implementation of data cleaning techniques from Xu Chu’s Introduction to Data Cleaning, applied to real-world datasets using Python, Pandas, and Google Colab. Organized by chapter with notebooks and learning notes.
+# Data Cleaning with Xu Chu
+
+This repository documents my hands-on learning of data cleaning using:
+- NYC Airbnb dataset
+- Python (Pandas, NumPy)
+- Google Colab notebooks
+
+## Chapters
+1. Outlier Detection
+2. Missing Values
+3. Data Types
+4. Duplicates
+5. Feature Engineering
