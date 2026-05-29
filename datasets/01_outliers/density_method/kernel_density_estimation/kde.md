@@ -1,4 +1,4 @@
-# Outlier Detection Study Notes: KDE → Isolation Forest
+# Outlier Detection Study Notes: KDE
 
 ## 1. Overview
 
@@ -9,7 +9,6 @@ This document summarizes the core concepts learned in Chapter 2 of *Introduction
 - Bandwidth selection
 - KDE-based anomaly detection
 - Limitations of density-based methods
-- Transition to Isolation Forest
 
 ---
 
@@ -176,21 +175,6 @@ Because KDE fails in:
 - high dimensions
 - scalability
 - structural anomalies
-
-We move to Isolation Forest.
-
----
-
-## 11. Isolation Forest Intuition
-
-Instead of density estimation, Isolation Forest asks:
-
-> How easy is it to isolate a data point?
-
-### Key idea:
-- Outliers are easier to isolate
-- Normal points require more splits
-
 ---
 
 ## 12. Comparison: KDE vs Isolation Forest
